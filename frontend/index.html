@@ -101,25 +101,40 @@
   </footer>
 
   <script>
+  const API = "https://career-insights-yqnc.onrender.com";
 
-  const API = "https://career-insights-yqnc.onrender.com"; 
-
-    async function getStatistics() {
-      const res = await fetch("http://127.0.0.1:8000/statistics");
+  async function getStatistics() {
+    const out = document.getElementById("statsOutput");
+    out.innerText = "Loading…";
+    try {
+      const res = await fetch(`${API}/statistics`, { method: "GET" });
+      if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
       const data = await res.json();
-      document.getElementById("statsOutput").innerText = JSON.stringify(data, null, 2);
+      out.innerText = JSON.stringify(data, null, 2);
+    } catch (err) {
+      out.innerText = `Error: ${err}`;
     }
+  }
 
-    async function askQuestion() {
-      const q = document.getElementById("questionInput").value;
-      const res = await fetch("http://127.0.0.1:8000/ask", {
+  async function askQuestion() {
+    const out = document.getElementById("answerOutput");
+    const q = document.getElementById("questionInput").value.trim();
+    if (!q) { out.innerText = "Please type a question."; return; }
+    out.innerText = "Thinking…";
+    try {
+      const res = await fetch(`${API}/ask`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question: q })
+        body: JSON.stringify({ question: q }),
       });
+      if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
       const data = await res.json();
-      document.getElementById("answerOutput").innerText = data.answer;
+      out.innerText = data.answer || JSON.stringify(data);
+    } catch (err) {
+      out.innerText = `Error: ${err}`;
     }
-  </script>
+  }
+</script>
+
 </body>
 </html>
