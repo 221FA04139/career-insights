@@ -61,3 +61,11 @@ async def get_statistics():
 async def ask_question(q: Question):
     ans = answer_question(q.question, df)
     return {"question": q.question, "answer": ans}
+@app.get("/")
+def root():
+    return {"status": "ok"}
+
+@app.get("/healthz")
+def healthz():
+    return {"status": "healthy"}
+
