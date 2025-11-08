@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career Insights Dashboard</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #f8faff;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #004aad;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #004aad;
+      margin-bottom: 10px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    button {
+      background: #004aad;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #003580;
+    }
+    input[type="text"] {
+      width: 70%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-right: 10px;
+      font-size: 15px;
+    }
+    .output {
+      background: #f0f4ff;
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #d0d8f0;
+      margin-top: 15px;
+      white-space: pre-wrap;
+      font-family: Consolas, monospace;
+      color: #222;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 13px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Career Outcome & Post-Graduation Support Insights</h1>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>📊 Summary Statistics</h2>
+      <button onclick="getStatistics()">Get Statistics</button>
+      <div id="statsOutput" class="output"></div>
+    </div>
+
+    <div class="section">
+      <h2>🤖 Ask a Question</h2>
+      <input type="text" id="questionInput" placeholder="e.g. What is the employment rate?">
+      <button onclick="askQuestion()">Ask</button>
+      <div id="answerOutput" class="output"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Project by [Your Team Name] | Powered by FastAPI & Gemini AI</p>
+  </footer>
+
+  <script>
+    async function getStatistics() {
+      const res = await fetch("http://127.0.0.1:8000/statistics");
+      const data = await res.json();
+      document.getElementById("statsOutput").innerText = JSON.stringify(data, null, 2);
+    }
+
+    async function askQuestion() {
+      const q = document.getElementById("questionInput").value;
+      const res = await fetch("http://127.0.0.1:8000/ask", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question: q })
+      });
+      const data = await res.json();
+      document.getElementById("answerOutput").innerText = data.answer;
+    }
+  </script>
+</body>
+</html>

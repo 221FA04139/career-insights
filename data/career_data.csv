@@ -1,0 +1,201 @@
+StudentID,Program,Employed,Salary,Sector,SupportService
+51,Biotech,0,,,MockInterview
+128,Data Science,1,1208091.0,IT,Mentorship
+38,Civil,1,641240.0,Construction,ResumeCounseling
+150,Business,1,569200.0,Finance,CareerFair
+20,Biotech,1,688568.0,Finance,InternshipPlacement
+105,Computer Science,1,589770.0,Startups,InternshipPlacement
+180,Electronics,1,355398.0,Education,InternshipPlacement
+54,Computer Science,1,899466.0,Government,MockInterview
+163,Electronics,0,,,InternshipPlacement
+159,Computer Science,1,775686.0,Finance,AlumniNetwork
+83,Civil,1,1057041.0,IT,ResumeCounseling
+186,Business,0,,,AlumniNetwork
+183,Data Science,1,782431.0,Finance,None
+190,Biotech,1,459648.0,Healthcare,InternshipPlacement
+109,Data Science,1,682138.0,Finance,ResumeCounseling
+32,Biotech,1,587411.0,Education,ResumeCounseling
+5,Electronics,1,569090.0,Education,AlumniNetwork
+179,Business,0,,,AlumniNetwork
+122,Biotech,1,857102.0,Healthcare,InternshipPlacement
+21,Civil,1,1062928.0,IT,Mentorship
+173,Mechanical,0,,,MockInterview
+89,Mechanical,1,617792.0,Manufacturing,InternshipPlacement
+167,Biotech,0,,,None
+171,Mechanical,1,731491.0,Construction,ResumeCounseling
+129,Data Science,1,710549.0,Finance,InternshipPlacement
+73,Data Science,1,1110240.0,Startups,MockInterview
+181,Mechanical,1,413939.0,Education,None
+27,Civil,1,684230.0,Government,ResumeCounseling
+145,Civil,1,649259.0,Government,ResumeCounseling
+53,Electronics,1,741288.0,Manufacturing,ResumeCounseling
+80,Data Science,1,540870.0,Startups,InternshipPlacement
+94,Civil,1,703840.0,Construction,ResumeCounseling
+184,Business,1,864462.0,Finance,Mentorship
+120,Computer Science,1,609503.0,IT,Mentorship
+86,Electronics,1,745189.0,IT,Mentorship
+134,Civil,1,704054.0,Government,InternshipPlacement
+185,Business,1,991888.0,Finance,ResumeCounseling
+140,Computer Science,1,561238.0,IT,InternshipPlacement
+96,Mechanical,0,,,InternshipPlacement
+141,Data Science,1,1211020.0,Startups,CareerFair
+25,Business,0,,,ResumeCounseling
+151,Electronics,1,862797.0,Finance,InternshipPlacement
+115,Biotech,1,473188.0,Education,None
+34,Data Science,1,1029828.0,IT,InternshipPlacement
+24,Computer Science,1,481525.0,Startups,None
+172,Computer Science,1,1106254.0,Startups,InternshipPlacement
+42,Civil,1,449655.0,Construction,ResumeCounseling
+101,Data Science,0,,,ResumeCounseling
+153,Civil,1,460251.0,Education,Mentorship
+72,Biotech,0,,,CareerFair
+187,Electronics,1,810920.0,Manufacturing,InternshipPlacement
+111,Electronics,0,,,CareerFair
+43,Business,0,,,CareerFair
+121,Business,1,1009158.0,Startups,MockInterview
+192,Electronics,1,557080.0,Manufacturing,AlumniNetwork
+162,Biotech,1,909898.0,Healthcare,InternshipPlacement
+11,Electronics,1,481615.0,Manufacturing,AlumniNetwork
+176,Biotech,1,585285.0,Construction,None
+78,Biotech,1,431262.0,Healthcare,ResumeCounseling
+63,Mechanical,0,,,None
+82,Biotech,1,615179.0,Education,CareerFair
+108,Computer Science,1,689481.0,Startups,InternshipPlacement
+113,Biotech,1,713648.0,Government,CareerFair
+146,Data Science,1,1066382.0,IT,AlumniNetwork
+9,Computer Science,1,841720.0,IT,AlumniNetwork
+152,Computer Science,1,900558.0,IT,AlumniNetwork
+155,Mechanical,1,485323.0,Construction,InternshipPlacement
+91,Business,1,1021907.0,Startups,Mentorship
+37,Mechanical,1,928787.0,Healthcare,Mentorship
+64,Business,1,797509.0,Startups,CareerFair
+29,Mechanical,1,635416.0,Construction,AlumniNetwork
+14,Computer Science,1,937651.0,Startups,InternshipPlacement
+160,Data Science,1,856711.0,Finance,Mentorship
+81,Computer Science,1,1154455.0,IT,ResumeCounseling
+157,Data Science,1,688804.0,Startups,None
+45,Mechanical,1,728081.0,Government,MockInterview
+193,Computer Science,1,1739180.0,Startups,CareerFair
+158,Civil,0,,,ResumeCounseling
+131,Data Science,1,735218.0,Construction,MockInterview
+61,Electronics,1,463046.0,Manufacturing,None
+8,Business,1,1508288.0,Startups,AlumniNetwork
+31,Biotech,1,814218.0,Healthcare,InternshipPlacement
+178,Electronics,1,596106.0,Manufacturing,Mentorship
+133,Data Science,0,,,ResumeCounseling
+30,Data Science,0,,,InternshipPlacement
+36,Computer Science,1,770633.0,Startups,ResumeCounseling
+1,Computer Science,0,,,AlumniNetwork
+189,Mechanical,1,573915.0,Construction,ResumeCounseling
+46,Biotech,1,503988.0,Education,MockInterview
+138,Mechanical,1,584710.0,Construction,AlumniNetwork
+41,Computer Science,0,,,InternshipPlacement
+60,Business,1,1048422.0,IT,MockInterview
+148,Biotech,1,702195.0,Healthcare,None
+47,Electronics,1,692520.0,Construction,ResumeCounseling
+126,Mechanical,1,401695.0,Manufacturing,Mentorship
+6,Biotech,1,761146.0,Healthcare,AlumniNetwork
+17,Biotech,1,661885.0,Healthcare,InternshipPlacement
+170,Electronics,1,597455.0,Manufacturing,AlumniNetwork
+66,Biotech,0,,,ResumeCounseling
+75,Mechanical,0,,,MockInterview
+62,Biotech,0,,,MockInterview
+196,Business,1,1014049.0,IT,InternshipPlacement
+39,Mechanical,1,687265.0,Construction,AlumniNetwork
+28,Civil,0,,,ResumeCounseling
+55,Data Science,1,481430.0,Education,Mentorship
+144,Civil,0,,,InternshipPlacement
+149,Electronics,1,551141.0,Healthcare,MockInterview
+182,Biotech,1,431167.0,Education,ResumeCounseling
+164,Computer Science,1,824149.0,IT,ResumeCounseling
+143,Business,1,732822.0,Healthcare,None
+88,Computer Science,1,1068564.0,Startups,InternshipPlacement
+10,Business,1,892980.0,Finance,AlumniNetwork
+7,Mechanical,1,603895.0,Government,ResumeCounseling
+161,Computer Science,1,1038283.0,Startups,InternshipPlacement
+117,Civil,0,,,ResumeCounseling
+123,Electronics,1,836965.0,Construction,InternshipPlacement
+166,Business,1,1417025.0,Startups,MockInterview
+197,Civil,0,,,None
+168,Data Science,1,698181.0,IT,MockInterview
+142,Electronics,1,571154.0,Healthcare,AlumniNetwork
+90,Mechanical,1,749875.0,Healthcare,InternshipPlacement
+22,Biotech,1,459587.0,Education,ResumeCounseling
+12,Business,0,,,CareerFair
+68,Biotech,0,,,InternshipPlacement
+4,Mechanical,1,539314.0,Government,MockInterview
+87,Data Science,1,729658.0,Finance,InternshipPlacement
+169,Civil,1,477221.0,Construction,MockInterview
+92,Business,0,,,None
+137,Computer Science,1,917956.0,IT,MockInterview
+49,Data Science,1,630226.0,Finance,ResumeCounseling
+118,Biotech,1,517474.0,Education,AlumniNetwork
+52,Mechanical,1,645341.0,Manufacturing,Mentorship
+2,Biotech,0,,,AlumniNetwork
+19,Computer Science,1,693069.0,Manufacturing,Mentorship
+13,Civil,1,683644.0,Government,InternshipPlacement
+177,Electronics,1,610327.0,IT,ResumeCounseling
+57,Business,1,1027624.0,Startups,InternshipPlacement
+26,Electronics,0,,,CareerFair
+102,Civil,1,682856.0,Government,Mentorship
+44,Electronics,1,460543.0,Startups,ResumeCounseling
+130,Electronics,1,953424.0,Finance,Mentorship
+104,Computer Science,1,814142.0,IT,MockInterview
+15,Computer Science,1,1066308.0,Startups,MockInterview
+135,Civil,1,755767.0,Government,InternshipPlacement
+116,Data Science,1,437086.0,Construction,CareerFair
+200,Mechanical,0,,,MockInterview
+71,Data Science,0,,,AlumniNetwork
+16,Business,1,932504.0,IT,ResumeCounseling
+147,Mechanical,0,,,CareerFair
+23,Computer Science,1,1228084.0,Startups,ResumeCounseling
+139,Electronics,1,579591.0,Construction,AlumniNetwork
+59,Data Science,1,687377.0,Construction,Mentorship
+76,Business,1,675132.0,Manufacturing,CareerFair
+65,Business,1,1114858.0,IT,Mentorship
+70,Electronics,1,717710.0,Manufacturing,Mentorship
+194,Business,1,902329.0,IT,AlumniNetwork
+132,Civil,1,772303.0,Construction,Mentorship
+77,Business,1,650561.0,Finance,AlumniNetwork
+35,Biotech,0,,,InternshipPlacement
+156,Data Science,1,452371.0,Education,Mentorship
+95,Computer Science,1,1390238.0,Startups,ResumeCounseling
+119,Business,1,508070.0,Construction,CareerFair
+98,Civil,0,,,AlumniNetwork
+103,Biotech,1,880061.0,Startups,InternshipPlacement
+93,Biotech,0,,,InternshipPlacement
+125,Data Science,0,,,Mentorship
+100,Electronics,0,,,None
+106,Biotech,1,712930.0,Manufacturing,MockInterview
+136,Computer Science,1,713045.0,IT,MockInterview
+188,Biotech,1,476570.0,Education,None
+174,Biotech,1,570369.0,Healthcare,None
+198,Mechanical,1,777732.0,Government,Mentorship
+40,Computer Science,1,456050.0,Education,InternshipPlacement
+85,Computer Science,1,1252148.0,IT,InternshipPlacement
+3,Biotech,1,583025.0,Education,CareerFair
+56,Computer Science,1,920515.0,Startups,ResumeCounseling
+50,Business,1,900335.0,Finance,InternshipPlacement
+69,Mechanical,1,860646.0,Government,Mentorship
+191,Biotech,0,,,InternshipPlacement
+165,Civil,0,,,CareerFair
+79,Biotech,1,501497.0,Healthcare,MockInterview
+195,Data Science,1,1100935.0,Startups,None
+154,Data Science,1,668692.0,Startups,MockInterview
+112,Business,1,918624.0,Healthcare,MockInterview
+175,Computer Science,1,1175671.0,Startups,Mentorship
+33,Electronics,1,934097.0,Finance,MockInterview
+74,Computer Science,1,1218255.0,IT,MockInterview
+48,Data Science,1,854521.0,IT,ResumeCounseling
+199,Business,1,910354.0,Startups,CareerFair
+114,Civil,0,,,InternshipPlacement
+97,Business,1,1091871.0,Finance,None
+58,Mechanical,1,847742.0,Government,Mentorship
+124,Biotech,1,767962.0,Healthcare,CareerFair
+107,Civil,0,,,CareerFair
+84,Mechanical,0,,,Mentorship
+18,Civil,1,778226.0,Construction,None
+99,Biotech,1,479446.0,Education,ResumeCounseling
+67,Biotech,1,798450.0,Healthcare,AlumniNetwork
+127,Data Science,1,526743.0,Education,CareerFair
+110,Business,1,554427.0,IT,InternshipPlacement
